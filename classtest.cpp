@@ -1,6 +1,7 @@
 /*
 Documentation:
 Classes: Some bugs left to fix, which I couldn't be bothered with. I just wanted to make an easy demonstration of what classes were but ended up creating a calculator.
+For some reason github doesn't want to indent the code properly, however, notepadcpp does indent it just fine..
 */
 
 #include <stdio.h>
@@ -121,7 +122,7 @@ int CConstructor::doCalculation(int fx, int fy, int option) {
 	} else {
 		cPointer.total = fx / fy;
 	}
-    printf("The result from that %s is %d \n", returnCalcType(option), cPointer.total); 
+	printf("The result from that %s is %d \n", returnCalcType(option), cPointer.total); 
     getch();
 	startMath();
 }

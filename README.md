@@ -1,7 +1,7 @@
 CPP
 ===
 
-You can find most of my C++ projects here
+You can find some of my C++ projects here
 
 Includes:
 ===

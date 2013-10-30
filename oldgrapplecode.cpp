@@ -48,7 +48,7 @@
 
 #else
 
-	#include "sdk_player.h"fire
+	#include "sdk_player.h"
 
 #endif
 

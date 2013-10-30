@@ -57,8 +57,8 @@ int main(int argc, char *argv[]) {
 
 void CConstructor::startMath() {
 	int optinput = 0; //Initialize this as 0
-	printf("Menu:\n");
-    for(int i=0; i<MAX_OPTS; i++) { //Loop through all those defined chars in the map and show them
+		printf("Menu:\n");
+    	for(int i=0; i<MAX_OPTS; i++) { //Loop through all those defined chars in the map and show them
 		printf("%d. %s\n", i+1, pEntClassName[i]);	
 	}
 	printf("What would you like to do: ");
@@ -129,7 +129,7 @@ char* CConstructor::returnCalcType(int option) {
 	char string[24];
 	int index = option-1;
 	#if debug
-    printf("Option: %d, Index: %d\n", option, index);
+    	printf("Option: %d, Index: %d\n", option, index);
 	#endif
 	sprintf(string, "%s", pEntClassName[index]);
 	return string; //We have to go backwards since our index will be 1 (sum would be 0, division would be 1, etc..

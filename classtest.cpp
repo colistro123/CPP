@@ -1,5 +1,5 @@
 /*
-Documentation:
+Description:
 Classes: Some bugs left to fix, which I couldn't be bothered with. I just wanted to make an easy demonstration of what classes were but ended up creating a calculator.
 For some reason github doesn't want to indent the code properly, however, notepadcpp does indent it just fine..
 */

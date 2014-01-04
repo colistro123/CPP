@@ -316,6 +316,7 @@ void startProgram( char *lpApplicationName ) {
 	if(!ShellExecuteEx(&sei)) {
 		printf("ShellExecute() failed to start program %s\n", lpApplicationName);
 		pause();
+		return;
 		//exit(1);
 	}
 	processDown = false;
